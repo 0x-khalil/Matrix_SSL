@@ -13,7 +13,7 @@ The core objective is to train a ResNet-18 encoder to learn robust visual repres
 - **Hardware Optimized:** Leverages Mixed Precision (FP16) and Gradient Accumulation to run effectively on 8GB VRAM (NVIDIA RTX 3070 Laptop).
 
 ## 📊 Performance
-- **KNN Top-1 Accuracy:** 34.92% (CIFAR-10)
+- **KNN Top-1 Accuracy:** 32.92% (CIFAR-10)
 - **Latent Space:** 128-dimensional embeddings.
 
 The model experiences a "reorganization phase" between epochs 20-50 where accuracy temporarily dips as it transitions from low-level color features to more complex semantic structures.
@@ -35,4 +35,4 @@ This project is based on the theoretical framework presented in:
 
 ## 🔗 Blog & Writeup
 I wrote a detailed post about the "Valley of Despair" during training and the math behind the redundancy reduction on my personal website:
-[Exploring the Latent Space: Matrix-SSL from Scratch](https://khalilbnr.github.io/blog/matrix-ssl)
+[Exploring the Latent Space: Matrix-SSL from Scratch](https://khalilbnrblog.vercel.app/SSL_Matrix.html)
