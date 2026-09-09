@@ -21,7 +21,7 @@ The model experiences a "reorganization phase" between epochs 20-50 where accura
 ## 🛠️ Tech Stack
 - **Framework:** PyTorch
 - **Visualizations:** Matplotlib, Scikit-learn (t-SNE)
-- **Hardware:** RTX 3070 Laptop GPU
+- **Hardware:** RTX 3060 GPU
 
 ## 📂 Project Structure
 - `model.py`: ResNet-18 backbone and MLP projector architecture.
