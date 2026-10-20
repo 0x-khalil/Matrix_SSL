@@ -2,8 +2,6 @@
 
 An implementation of **Matrix-SSL** (Matrix Information Theory for SSL) applied to the CIFAR-10 dataset. This project explores feature discovery without labels by minimizing redundancy in the cross-correlation matrix of augmented views.
 
-[![Blog Post](https://img.shields.io/badge/Blog-Read_Technical_Writeup-yellow?style=for-the-badge&logo=medium)](https://khalilbnrblog.vercel.app/SSL_Matrix.html) 
-
 ## 🚀 Overview
 The core objective is to train a ResNet-18 encoder to learn robust visual representations using the principle of **Redundancy Reduction**. Instead of contrasting individual samples, we force the cross-correlation matrix of twin embeddings toward the identity matrix.
 
