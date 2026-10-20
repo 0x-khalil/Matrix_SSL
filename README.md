@@ -31,6 +31,3 @@ The model experiences a "reorganization phase" between epochs 20-50 where accura
 This project is based on the theoretical framework presented in:
 > **Zhang et al. (2023).** *Matrix Information Theory for Self-Supervised Learning.* [arXiv:2305.17326](https://arxiv.org/abs/2305.17326)
 
-## 🔗 Blog & Writeup
-I wrote a detailed post about the "Valley of Despair" during training and the math behind the redundancy reduction on my personal website:
-[Exploring the Latent Space: Matrix-SSL from Scratch](https://khalilbnrblog.vercel.app/SSL_Matrix.html)
